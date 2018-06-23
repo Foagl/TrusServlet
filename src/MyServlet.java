@@ -24,6 +24,6 @@ protected void doGet(javax.servlet.http.HttpServletRequest request, javax.servle
     out.print("<h1> Ваша введенная информация:, " + job + " " + gender + " </h1><br>!");
     out.print("<form method= \"get\" action=\"CalsSalary\"> ");
     out.print("<input type=\"submit\" value=\"Отправить\"> </form>");
-    out.close() ;
+    out.close();
     }
 }
